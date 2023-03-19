@@ -1,5 +1,3 @@
-// complete the given function
-
 function palindrome(str){
 	str = str.toLowerCase;
 	str = str.replace(' ', '');
