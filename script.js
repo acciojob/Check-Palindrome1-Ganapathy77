@@ -1,6 +1,6 @@
 function palindrome(str){
 	str = str.toLowerCase();
-	str = str.replace(/ /g, "");
+	str = str.replace(" ", "");
 let i = 0;
 	let j = str.length - 1;
 	while(i < j){
